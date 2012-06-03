@@ -3,7 +3,7 @@
         "name": "pimple/pimple",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
-        "time": "2012-05-08 07:57:24",
+        "time": "2012-05-08 05:57:24",
         "source": {
             "type": "git",
             "url": "git://github.com/fabpot/Pimple.git",
@@ -53,7 +53,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/HttpFoundation",
-        "time": "2012-05-29 23:57:13",
+        "time": "2012-05-29 21:57:13",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpFoundation",
@@ -106,7 +106,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/HttpKernel",
-        "time": "2012-05-27 04:30:27",
+        "time": "2012-05-27 02:30:27",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpKernel",
@@ -178,7 +178,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Routing",
-        "time": "2012-05-22 01:27:55",
+        "time": "2012-05-21 23:27:55",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Routing",
@@ -240,7 +240,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/EventDispatcher",
-        "time": "2012-05-26 01:48:33",
+        "time": "2012-05-25 23:48:33",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/EventDispatcher",
@@ -298,7 +298,7 @@
         "name": "silex/silex",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
-        "time": "2012-06-01 23:47:58",
+        "time": "2012-06-01 21:47:58",
         "source": {
             "type": "git",
             "url": "git://github.com/fabpot/Silex.git",
@@ -378,7 +378,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Bridge/Twig",
-        "time": "2012-05-26 03:48:33",
+        "time": "2012-05-26 01:48:33",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/TwigBridge",
@@ -444,7 +444,7 @@
         "name": "twig/twig",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
-        "time": "2012-05-31 01:17:23",
+        "time": "2012-05-30 23:17:23",
         "source": {
             "type": "git",
             "url": "git://github.com/fabpot/Twig.git",
@@ -499,7 +499,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Locale",
-        "time": "2012-05-31 01:04:03",
+        "time": "2012-05-30 23:04:03",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Locale",
@@ -554,7 +554,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/OptionsResolver",
-        "time": "2012-05-25 19:40:38",
+        "time": "2012-05-25 17:40:38",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/OptionsResolver",
@@ -611,7 +611,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/ClassLoader",
-        "time": "2012-05-21 12:06:09",
+        "time": "2012-05-21 10:06:09",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/ClassLoader",
@@ -666,7 +666,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Config",
-        "time": "2012-05-26 15:30:39",
+        "time": "2012-05-26 13:30:39",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Config",
@@ -718,7 +718,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Console",
-        "time": "2012-05-22 08:35:53",
+        "time": "2012-05-22 06:35:53",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Console",
@@ -770,7 +770,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/DependencyInjection",
-        "time": "2012-05-30 05:01:58",
+        "time": "2012-05-30 03:01:58",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/DependencyInjection",
@@ -830,7 +830,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Finder",
-        "time": "2012-05-21 18:27:15",
+        "time": "2012-05-21 16:27:15",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Finder",
@@ -882,7 +882,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Yaml",
-        "time": "2012-05-18 15:42:42",
+        "time": "2012-05-18 13:42:42",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Yaml",
@@ -934,7 +934,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Form",
-        "time": "2012-05-30 14:44:03",
+        "time": "2012-05-30 12:44:03",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Form",
@@ -997,7 +997,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Templating",
-        "time": "2012-05-27 08:30:27",
+        "time": "2012-05-27 06:30:27",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Templating",
@@ -1049,7 +1049,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Translation",
-        "time": "2012-05-21 18:27:15",
+        "time": "2012-05-21 16:27:15",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Translation",
@@ -1109,7 +1109,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/DomCrawler",
-        "time": "2012-05-21 18:27:15",
+        "time": "2012-05-21 16:27:15",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/DomCrawler",
@@ -1167,7 +1167,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/BrowserKit",
-        "time": "2012-05-18 09:08:19",
+        "time": "2012-05-18 07:08:19",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/BrowserKit",
@@ -1227,7 +1227,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Validator",
-        "time": "2012-05-26 07:48:33",
+        "time": "2012-05-26 05:48:33",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Validator",
@@ -1289,7 +1289,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/CssSelector",
-        "time": "2012-05-20 16:16:37",
+        "time": "2012-05-20 14:16:37",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/CssSelector",
@@ -1341,7 +1341,7 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Process",
-        "time": "2012-05-24 17:53:48",
+        "time": "2012-05-24 15:53:48",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Process",
