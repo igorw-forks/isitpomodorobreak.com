@@ -25,7 +25,7 @@ h1 {
 h2 {
     font-size: 200px;
     line-height: 250px;
-    color: #81ba5d;
+    text-transform: capitalize;
     text-shadow: 1px 1px 1px #ddd;
     font-weight: 100;
     font-family: 'Mr Dafoe', cursive;
@@ -55,8 +55,44 @@ a, span.red {
     text-decoration: none;
 }
 
+h2.yes {
+    color: #81ba5d;
+}
+
+h2.no {
+    color: #eb363b;
+}
+
 .center {
     text-align: center;
+}
+
+#time {
+    visibility: hidden;
+    display: none;
+}
+
+.quick-links {
+  min-height: 30px;
+  margin: 0;
+  padding: 5px 20px;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+}
+.quick-links:first-child {
+  min-height: 0;
+}
+.quick-links li {
+  display: inline;
+  margin: 0 8px;
+  color: #999;
+}
+.quick-links .github-btn,
+.quick-links .tweet-btn,
+.quick-links .follow-btn {
+  position: relative;
+  top: 5px;
 }
 
 /* ============================= */

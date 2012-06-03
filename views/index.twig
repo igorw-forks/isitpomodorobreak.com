@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
     <link rel="shortcut icon" href="/img/icon-pomodoro.png" type="image/png" />
-    <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 </head>
 <body>
 <div class="container">
@@ -21,7 +20,7 @@
 <div class="container">
     <div class="row">
         <div class="twelvecol last">
-            <h2>Yes</h2>
+            <h2 class="{{ status }}" id="status">{{ status }}</h2>
         </div>
     </div>
 </div>
@@ -34,14 +33,39 @@
         </div>
         <div class="fourcol">
             <h3><img src="/img/icon-about.png" /> About isitpomodorobreak.com</h3>
-            <p>It shows up every 25 minutes if it is time for a Pomodoro break or not. You can let this site open in your Browser or on your Mobile device, the status change works automatically. </p>
+            <p>It shows up every 25 minutes if it is time for a Pomodoro break or not. You can let this site open in your Browser or on your Mobile device, the status changes automatically. </p>
         </div>
         <div class="fourcol last">
             <h3><img src="/img/icon-github.png" /> Open-Source</h3>
             <p>Built for and maintained by the community via <a href="https://github.com/m83/isitpomodorobreak.com">GitHub</a>.<br />
-                You can also use the <a href="/api/">API Interface</a> to connect your personal display handler or hardware device like an <a href="http://arduino.cc/">Arduino</a>.</p>
+                You can also use the <a href="/api/">API Interface</a> to connect your personal hardware device like an <a href="http://arduino.cc/">Arduino</a>.</p>
         </div>
     </div>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="twelvecol last">
+            <ul class="quick-links">
+                <li>
+                    <iframe class="github-btn" src="http://markdotto.github.com/github-buttons/github-btn.html?user=m83&amp;repo=isitpomodorobreak.com&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="112px" height="20px"></iframe>
+                </li>
+                <li>
+                    <iframe class="github-btn" src="http://markdotto.github.com/github-buttons/github-btn.html?user=m83&amp;repo=isitpomodorobreak.com&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="98px" height="20px"></iframe>
+                </li>
+                <li class="follow-btn">
+                    <a href="https://twitter.com/mhauri" class="twitter-follow-button" data-show-count="true">Follow @mhauri</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+                <li class="tweet-btn">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://isitpomodorobreak.com" data-via="mhauri" data-lang="en">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="time">{{ time }}</div>
+<script type="text/javascript" src="/js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>
