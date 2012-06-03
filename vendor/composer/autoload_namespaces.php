@@ -6,13 +6,13 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Twig_' => $vendorDir . '/twig/twig/lib/',
-    'Symfony\\Component\\Routing' => $vendorDir . '/symfony/routing/',
-    'Symfony\\Component\\HttpKernel' => $vendorDir . '/symfony/http-kernel/',
-    'Symfony\\Component\\HttpFoundation' => $vendorDir . '/symfony/http-foundation/',
-    'Symfony\\Component\\EventDispatcher' => $vendorDir . '/symfony/event-dispatcher/',
-    'Symfony\\Bridge\\Twig' => $vendorDir . '/symfony/twig-bridge/',
-    'Silex' => $vendorDir . '/silex/silex/src/',
-    'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs',
-    'Pimple' => $vendorDir . '/pimple/pimple/lib/',
+    'Twig_' => $baseDir . '/vendor/twig/twig/lib/',
+    'Symfony\\Component\\Routing' => $baseDir . '/vendor/symfony/routing/',
+    'Symfony\\Component\\HttpKernel' => $baseDir . '/vendor/symfony/http-kernel/',
+    'Symfony\\Component\\HttpFoundation' => $baseDir . '/vendor/symfony/http-foundation/',
+    'Symfony\\Component\\EventDispatcher' => $baseDir . '/vendor/symfony/event-dispatcher/',
+    'Symfony\\Bridge\\Twig' => $baseDir . '/vendor/symfony/twig-bridge/',
+    'Silex' => $baseDir . '/vendor/silex/silex/src/',
+    'SessionHandlerInterface' => $baseDir . '/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs',
+    'Pimple' => $baseDir . '/vendor/pimple/pimple/lib/',
 );
