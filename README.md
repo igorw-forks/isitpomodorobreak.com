@@ -4,10 +4,9 @@
 
 2. Run Composer to install Silex and all its dependencies:
 
-```
+```bash
 $ curl -s http://getcomposer.org/installer | php
 $ composer.phar install
-
 ```
 
 ## Requirements
