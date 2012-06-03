@@ -2,10 +2,62 @@
 /* ! Layout for desktop version   */
 /* ============================== */
 
-	body {
-		
-	}
-	
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
+@import url(http://fonts.googleapis.com/css?family=Mr+Dafoe);
+
+body {
+    text-align: center;
+    font-family: arial;
+    background-color: #eee;
+    color: #333;
+}
+h1 {
+    font-family: 'Pinyon Script', cursive;
+    color: #81ba5d;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #ddd;
+    line-height: 60px;
+    border-bottom: 3px dotted #ddd;
+    padding: 10% 0 2% 0;
+}
+
+h2 {
+    font-size: 200px;
+    line-height: 250px;
+    color: #81ba5d;
+    text-shadow: 1px 1px 1px #ddd;
+    font-weight: 100;
+    font-family: 'Mr Dafoe', cursive;
+    padding: 2% 0 5% 0;
+    border-bottom: 3px dotted #ddd;
+}
+
+h3 {
+    color: #333;
+    font-size: 20px;
+    padding: 10px 0 0 0;
+    font-weight: 100;
+    text-align: left;
+    padding: 20px 0 5px 0;
+
+}
+
+p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 35px 20px 0;
+}
+
+a, span.red {
+    color: #eb363b;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
 
 /* ============================= */
 /* ! Layout for mobile version   */
@@ -13,9 +65,41 @@
 
 @media handheld, only screen and (max-width: 767px) {
 
-	body {
-		
-	}
+    body {
+
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 150px;
+        line-height: 200px;
+        padding: 2% 0 5% 0;
+    }
+
+}
+
+@media handheld, only screen and (max-width: 550px) {
+
+    body {
+
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 100px;
+        line-height: 150px;
+        padding: 2% 0 5% 0;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
 
 }
 
@@ -24,11 +108,11 @@
 /* ! Provide higher res assets for iPhone 4   */
 /* ========================================== */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
 
-/*	.logo {
-		background: url(logo2x.jpg) no-repeat;
-		background-size: 212px 303px;
-	}*/
+    /*	.logo {
+         background: url(logo2x.jpg) no-repeat;
+         background-size: 212px 303px;
+     }*/
 
 }
