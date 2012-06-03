@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
             seconds  = newTime.getSeconds();
         if((minutes >= 25 && minutes <= 29) || minutes >= 55 && minutes <= 59) {
             $("#status").attr('class', 'yes').html('yes');
-        } else if(minutes == 26 || minutes == 0) {
+        } else if(minutes == 30 || minutes == 0) {
             $("#status").attr('class', 'no').html('no');
         }
         $("#time").html(time+1);
