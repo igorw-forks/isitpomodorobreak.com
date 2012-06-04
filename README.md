@@ -6,7 +6,7 @@
 
 ```bash
 $ curl -s http://getcomposer.org/installer | php
-$ composer.phar install
+$ php composer.phar install
 ```
 
 ## Requirements
