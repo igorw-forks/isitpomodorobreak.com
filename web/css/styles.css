@@ -73,26 +73,26 @@ h2.no {
 }
 
 .quick-links {
-  min-height: 30px;
-  margin: 0;
-  padding: 5px 20px;
-  list-style: none;
-  text-align: center;
-  overflow: hidden;
+    min-height: 30px;
+    margin: 0;
+    padding: 5px 20px;
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
 }
 .quick-links:first-child {
-  min-height: 0;
+    min-height: 0;
 }
 .quick-links li {
-  display: inline;
-  margin: 0 8px;
-  color: #999;
+    display: inline;
+    margin: 0 8px;
+    color: #999;
 }
 .quick-links .github-btn,
 .quick-links .tweet-btn,
 .quick-links .follow-btn {
-  position: relative;
-  top: 5px;
+    position: relative;
+    top: 5px;
 }
 
 .github-btn {
@@ -136,7 +136,7 @@ h2.no {
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 35px;
         line-height: 26px;
         padding-left: 0;
         padding-right: 0;
@@ -155,6 +155,11 @@ h2.no {
 
 }
 
+@media handheld, only screen and (max-width: 320px) {
+    h1 {
+        font-size: 28px;
+    }
+}
 
 /* ========================================== */
 /* ! Provide higher res assets for iPhone 4   */
