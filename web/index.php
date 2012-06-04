@@ -8,13 +8,11 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/../views',
 ));
 
-
-function getStatus() {
-    $now    = time();
+function getStatus($now) {
     $minute = date("i", $now);
 
     $status = 'no';
-    if(($minute >= 25 && $minute <= 29) || ($minute >= 55  && $minute <= 59)) {
+    if (($minute >= 25 && $minute <= 29) || ($minute >= 55  && $minute <= 59)) {
         $status = 'yes';
     }
 
@@ -27,19 +25,18 @@ function getStatus() {
     return $data;
 }
 
-$data = getStatus();
+$app['data'] = function () use ($app) {
+    $now = $app['request']->server->get('REQUEST_TIME');
+    return getStatus($now);
+};
 
-$app->get('/', function() use ($app, $data) {
+$app->get('/', function () use ($app) {
+    $data = $app['data'];
     return $app['twig']->render('index.twig', array('status' => $data['status'], 'time' => $data['current_time']));
 });
 
-$app->get('/api/', function() use ($app, $data) {
-    header('Cache-Control: no-cache, must-revalidate');
-    header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
-    header('Content-type: application/json');
-
-    return json_encode($data);
-
+$app->get('/api/', function () use ($app) {
+    return $app->json($app['data']);
 });
 
 $app->run();
