@@ -1,0 +1,16 @@
+/* TEAM */
+    Marcel Hauri
+    Contact: hello [at] isitpomodorobreak.com
+    Twitter: @mhauri
+    From: Berne, Switzerland
+
+/* THANKS */
+    Nadja from Liip AG which comes up with the idea during a Skype chat.
+
+
+/* SITE */
+    Language: English
+    Standards: HTML5, CSS
+    Components: CssGrid, jQuery, Silex, Twig
+    Software: PhpStorm
+    VCS: git
